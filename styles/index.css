@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+h1 {
+    color-interpolation-filters: black;
+    transition: color 0.4s ease-in-out;
+}
+
+.clicked {
+    color: lightgray;
+}
+
+.form  {
+    display: none;
+}
+
+.greetings {
+    display: none;
+}
+
+.showing { 
+    display: block;
+}
