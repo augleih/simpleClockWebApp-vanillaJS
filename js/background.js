@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 10;
+const IMG_NUMBER = 29;
 
 function printImage(imgNumber) { // 실제 이미지를 출력하는 함수
     const image = new Image();
