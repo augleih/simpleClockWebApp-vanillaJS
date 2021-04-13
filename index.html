@@ -2,29 +2,35 @@
 <html lang="en">
 <head>
     <title>webClock-vanillaJS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+        integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./styles/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="js-clock">
-        <h2 class="js-date"></h2>
-        <h3 class="js-title">00:00:00</h3>
+    <div class="body__container">
+        <div class="js-clock">
+            <div class="js-date"></div>
+            <div class="js-title">00:00:00</div>
+        </div>
+        
+        <form class="js-form form">
+            <input type="text" placeholder="Please type your name">
+        </form>
+        
+        <h4 class="js-greetings greetings"></h4>
+    
+        <form class="js-toDoForm">
+            <input type="text" placeholder="Write your daily task">
+        </form>
+    
+        <ol class="js-toDoList">
+        </ol>
+    
+        <span class="js-weather"></span>
     </div>
-    
-    <form class="js-form form">
-        <input type="text" placeholder="Please type your name">
-    </form>
-    
-    <h4 class="js-greetings greetings"></h4>
-
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write your daily task">
-    </form>
-
-    <ol class="js-toDoList">
-    </ol>
-
-    <span class="js-weather"></span>
 
     <script src="./js/clock.js"></script>
     <script src="./js/greeting.js"></script>
